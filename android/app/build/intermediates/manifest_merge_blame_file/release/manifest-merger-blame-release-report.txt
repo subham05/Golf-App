@@ -1,0 +1,194 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.powakaddy"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:6:5-75
+12-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:6:22-73
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:7:5-81
+13-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:8:5-79
+14-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:8:22-76
+15    <uses-permission
+15-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:9:5-95
+16        android:name="android.permission.BLUETOOTH"
+16-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:9:22-65
+17        android:maxSdkVersion="30" />
+17-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:9:66-92
+18    <uses-permission
+18-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:10:5-101
+19        android:name="android.permission.BLUETOOTH_ADMIN"
+19-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:10:22-71
+20        android:maxSdkVersion="30" />
+20-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:10:72-98
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:11:5-76
+21-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:11:22-74
+22    <!-- <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"/> -->
+23    <!--
+24    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+25    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+26    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+27    -->
+28
+29    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+29-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:19:5-75
+29-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:19:22-73
+30
+31    <!-- tools:targetApi="s" -->
+32
+33
+34    <!-- Needed only if your app looks for Bluetooth devices. -->
+35    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+35-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:24:5-73
+35-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:24:22-70
+36    <!-- Needed only if your app makes the device discoverable to Bluetooth devices. -->
+37    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+37-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:26:5-78
+37-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:26:22-75
+38
+39    <uses-feature
+39-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:29:5-31:35
+40        android:name="android.hardware.bluetooth"
+40-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:30:9-50
+41        android:required="true" />
+41-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:31:9-32
+42    <uses-feature
+42-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:32:5-34:35
+43        android:name="android.hardware.bluetooth_le"
+43-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:33:9-53
+44        android:required="true" />
+44-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:34:9-32
+45
+46    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required to access Google Play Licensing -->
+46-->[:react-native-community_netinfo] /Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+46-->[:react-native-community_netinfo] /Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
+47    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+47-->[:rn-fetch-blob] /Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-73
+47-->[:rn-fetch-blob] /Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-70
+48    <!--
+49         Required to keep CPU alive while downloading files
+50        (NOT to keep screen awake)
+51    -->
+52    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required to read and write the expansion files on shared storage -->
+52-->[:rn-fetch-blob] /Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:5-68
+52-->[:rn-fetch-blob] /Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:22-65
+53    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+53-->[:rn-fetch-blob] /Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:31:5-81
+53-->[:rn-fetch-blob] /Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:31:22-78
+54
+55    <application
+55-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:37:5-58:19
+56        android:name="com.powakaddy.MainApplication"
+56-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:38:7-38
+57        android:allowBackup="false"
+57-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:42:7-34
+58        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+58-->[androidx.core:core:1.7.0] /Users/webskitters/.gradle/caches/transforms-3/63a3df243d2d102452600006144a86df/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+59        android:icon="@mipmap/ic_launcher"
+59-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:40:7-41
+60        android:label="@string/app_name"
+60-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:39:7-39
+61        android:roundIcon="@mipmap/ic_launcher"
+61-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:41:7-46
+62        android:theme="@style/AppTheme" >
+62-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:43:7-38
+63        <activity
+63-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:44:7-57:18
+64            android:name="com.powakaddy.MainActivity"
+64-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:45:9-37
+65            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+65-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:47:9-118
+66            android:exported="true"
+66-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:50:9-32
+67            android:label="@string/app_name"
+67-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:46:9-41
+68            android:launchMode="singleTask"
+68-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:48:9-40
+69            android:screenOrientation="portrait"
+69-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:51:9-45
+70            android:windowSoftInputMode="adjustResize" >
+70-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:49:9-51
+71            <intent-filter>
+71-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:53:9-56:25
+72                <action android:name="android.intent.action.MAIN" />
+72-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:54:13-65
+72-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:54:21-62
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:55:13-73
+74-->/Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/android/app/src/main/AndroidManifest.xml:55:23-70
+75            </intent-filter>
+76        </activity>
+77
+78        <provider
+78-->[:rn-fetch-blob] /Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-42:20
+79            android:name="com.RNFetchBlob.Utils.FileProvider"
+79-->[:rn-fetch-blob] /Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-62
+80            android:authorities="com.powakaddy.provider"
+80-->[:rn-fetch-blob] /Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-60
+81            android:exported="false"
+81-->[:rn-fetch-blob] /Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-37
+82            android:grantUriPermissions="true" >
+82-->[:rn-fetch-blob] /Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-47
+83            <meta-data
+83-->[:rn-fetch-blob] /Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:39:13-41:58
+84                android:name="android.support.FILE_PROVIDER_PATHS"
+84-->[:rn-fetch-blob] /Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-67
+85                android:resource="@xml/provider_paths" />
+85-->[:rn-fetch-blob] /Users/webskitters/Desktop/React-native/Powakaddy/Powakaddy/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:41:17-55
+86        </provider>
+87
+88        <activity
+88-->[com.google.android.gms:play-services-base:18.0.1] /Users/webskitters/.gradle/caches/transforms-3/f88b5a2c0b62a187e4b15b1bc1640873/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+89-->[com.google.android.gms:play-services-base:18.0.1] /Users/webskitters/.gradle/caches/transforms-3/f88b5a2c0b62a187e4b15b1bc1640873/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+90            android:exported="false"
+90-->[com.google.android.gms:play-services-base:18.0.1] /Users/webskitters/.gradle/caches/transforms-3/f88b5a2c0b62a187e4b15b1bc1640873/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+91-->[com.google.android.gms:play-services-base:18.0.1] /Users/webskitters/.gradle/caches/transforms-3/f88b5a2c0b62a187e4b15b1bc1640873/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+92
+93        <meta-data
+93-->[com.google.android.gms:play-services-basement:18.0.0] /Users/webskitters/.gradle/caches/transforms-3/0d39a69999dbc6a118940cc88a77f408/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+94            android:name="com.google.android.gms.version"
+94-->[com.google.android.gms:play-services-basement:18.0.0] /Users/webskitters/.gradle/caches/transforms-3/0d39a69999dbc6a118940cc88a77f408/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+95            android:value="@integer/google_play_services_version" />
+95-->[com.google.android.gms:play-services-basement:18.0.0] /Users/webskitters/.gradle/caches/transforms-3/0d39a69999dbc6a118940cc88a77f408/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+96
+97        <provider
+97-->[androidx.emoji2:emoji2:1.0.0] /Users/webskitters/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+98            android:name="androidx.startup.InitializationProvider"
+98-->[androidx.emoji2:emoji2:1.0.0] /Users/webskitters/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+99            android:authorities="com.powakaddy.androidx-startup"
+99-->[androidx.emoji2:emoji2:1.0.0] /Users/webskitters/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+100            android:exported="false" >
+100-->[androidx.emoji2:emoji2:1.0.0] /Users/webskitters/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+101            <meta-data
+101-->[androidx.emoji2:emoji2:1.0.0] /Users/webskitters/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+102                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+102-->[androidx.emoji2:emoji2:1.0.0] /Users/webskitters/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+103                android:value="androidx.startup" />
+103-->[androidx.emoji2:emoji2:1.0.0] /Users/webskitters/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+104            <meta-data
+104-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/webskitters/.gradle/caches/transforms-3/bc74a39e1ea23fea00bfcf2682a93948/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+105                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+105-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/webskitters/.gradle/caches/transforms-3/bc74a39e1ea23fea00bfcf2682a93948/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+106                android:value="androidx.startup" />
+106-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/webskitters/.gradle/caches/transforms-3/bc74a39e1ea23fea00bfcf2682a93948/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+107        </provider>
+108    </application>
+109
+110</manifest>
